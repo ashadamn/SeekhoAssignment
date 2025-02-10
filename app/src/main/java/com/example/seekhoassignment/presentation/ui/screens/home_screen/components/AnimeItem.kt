@@ -60,7 +60,6 @@ fun AnimeItem(
                 verticalArrangement = Arrangement.Center
             ) {
 
-
                 Text(
                     text = anime.title ?: anime.titleEnglish ?: anime.titleJapanese ?: "null",
                     fontWeight = FontWeight.Bold,

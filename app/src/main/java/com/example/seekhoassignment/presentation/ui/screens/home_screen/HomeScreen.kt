@@ -44,8 +44,9 @@ fun HomeScreen(
                         ) { anime ->
                             AnimeItem(
                                 anime = anime,
-                                onClick = { anime.malId?.let { onClick(it) } }
-                            )
+                            ) {
+                                anime.malId?.let { onClick(it) }
+                            }
                         }
                     }
                 }
