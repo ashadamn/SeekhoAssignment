@@ -40,7 +40,6 @@ fun AnimeDetailScreen(
                             .verticalScroll(rememberScrollState()),
                         verticalArrangement = Arrangement.spacedBy(Spacing.small)
                     ) {
-
                         if (animeDetail.data?.trailer?.url != null) {
                             YouTubeVideoPlayer(
                                 url = animeDetail.data?.trailer?.url!!,
